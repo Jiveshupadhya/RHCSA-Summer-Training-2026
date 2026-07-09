@@ -1,0 +1,117 @@
+==========================================
+LINUX SOFTWARE UPDATE REPORT
+==========================================
+Timestamp            : 09-07-2026 19:53:27
+Operating System     : Ubuntu 24.04.4 LTS
+Package Manager      : apt
+Available Updates    : 16
+Installation Status  : Successful
+
+==========================================
+UPDATED PACKAGES
+==========================================
+code/stable 1.128.0-1783465401 amd64 [upgradable from: 1.127.0-1782814776]
+gir1.2-mutter-14/noble-updates 46.2-1ubuntu0.24.04.16 amd64 [upgradable from: 46.2-1ubuntu0.24.04.15]
+google-chrome-stable/stable 150.0.7871.114-1 amd64 [upgradable from: 150.0.7871.46-1]
+libinput-bin/noble-updates 1.25.0-1ubuntu3.5 amd64 [upgradable from: 1.25.0-1ubuntu3.4]
+libinput10/noble-updates 1.25.0-1ubuntu3.5 amd64 [upgradable from: 1.25.0-1ubuntu3.4]
+libipa-hbac0t64/noble-updates 2.9.4-1.1ubuntu6.6 amd64 [upgradable from: 2.9.4-1.1ubuntu6.5]
+libmutter-14-0/noble-updates 46.2-1ubuntu0.24.04.16 amd64 [upgradable from: 46.2-1ubuntu0.24.04.15]
+libnss-sss/noble-updates 2.9.4-1.1ubuntu6.6 amd64 [upgradable from: 2.9.4-1.1ubuntu6.5]
+libpam-sss/noble-updates 2.9.4-1.1ubuntu6.6 amd64 [upgradable from: 2.9.4-1.1ubuntu6.5]
+libsss-certmap0/noble-updates 2.9.4-1.1ubuntu6.6 amd64 [upgradable from: 2.9.4-1.1ubuntu6.5]
+libsss-idmap0/noble-updates 2.9.4-1.1ubuntu6.6 amd64 [upgradable from: 2.9.4-1.1ubuntu6.5]
+libsss-nss-idmap0/noble-updates 2.9.4-1.1ubuntu6.6 amd64 [upgradable from: 2.9.4-1.1ubuntu6.5]
+mutter-common-bin/noble-updates 46.2-1ubuntu0.24.04.16 amd64 [upgradable from: 46.2-1ubuntu0.24.04.15]
+mutter-common/noble-updates,noble-updates 46.2-1ubuntu0.24.04.16 all [upgradable from: 46.2-1ubuntu0.24.04.15]
+python3-sss/noble-updates 2.9.4-1.1ubuntu6.6 amd64 [upgradable from: 2.9.4-1.1ubuntu6.5]
+sssd-ad-common/noble-updates 2.9.4-1.1ubuntu6.6 amd64 [upgradable from: 2.9.4-1.1ubuntu6.5]
+sssd-ad/noble-updates 2.9.4-1.1ubuntu6.6 amd64 [upgradable from: 2.9.4-1.1ubuntu6.5]
+sssd-common/noble-updates 2.9.4-1.1ubuntu6.6 amd64 [upgradable from: 2.9.4-1.1ubuntu6.5]
+sssd-ipa/noble-updates 2.9.4-1.1ubuntu6.6 amd64 [upgradable from: 2.9.4-1.1ubuntu6.5]
+sssd-krb5-common/noble-updates 2.9.4-1.1ubuntu6.6 amd64 [upgradable from: 2.9.4-1.1ubuntu6.5]
+sssd-krb5/noble-updates 2.9.4-1.1ubuntu6.6 amd64 [upgradable from: 2.9.4-1.1ubuntu6.5]
+sssd-ldap/noble-updates 2.9.4-1.1ubuntu6.6 amd64 [upgradable from: 2.9.4-1.1ubuntu6.5]
+sssd-proxy/noble-updates 2.9.4-1.1ubuntu6.6 amd64 [upgradable from: 2.9.4-1.1ubuntu6.5]
+sssd/noble-updates 2.9.4-1.1ubuntu6.6 amd64 [upgradable from: 2.9.4-1.1ubuntu6.5]
+tzdata/noble-updates,noble-updates 2026b-0ubuntu0.24.04.1 all [upgradable from: 2026a-0ubuntu0.24.04.1]
+
+==========================================
+COMMAND OUTPUT
+==========================================
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Calculating upgrade...
+Get more security updates through Ubuntu Pro with 'esm-apps' enabled:
+  libzvbi-common python3-pip-whl libcjson1 libavdevice60 ffmpeg
+  libopenexr-3-1-30 libpostproc57 python3-wheel python3-fonttools
+  libmbedcrypto7t64 libavcodec60 libgstreamer-plugins-bad1.0-0 libzvbi0t64
+  libavutil58 libswscale7 python3-pip libswresample4 libavformat60
+  gstreamer1.0-plugins-bad libavfilter9
+Learn more about Ubuntu Pro at https://ubuntu.com/pro
+The following upgrades have been deferred due to phasing:
+  libipa-hbac0t64 libnss-sss libpam-sss libsss-certmap0 libsss-idmap0
+  libsss-nss-idmap0 python3-sss sssd sssd-ad sssd-ad-common sssd-common
+  sssd-ipa sssd-krb5 sssd-krb5-common sssd-ldap sssd-proxy
+The following packages will be upgraded:
+  code gir1.2-mutter-14 google-chrome-stable libinput-bin libinput10
+  libmutter-14-0 mutter-common mutter-common-bin tzdata
+9 upgraded, 0 newly installed, 0 to remove and 16 not upgraded.
+Need to get 342 MB of archives.
+After this operation, 25.4 MB of additional disk space will be used.
+Get:1 https://dl.google.com/linux/chrome-stable/deb stable/main amd64 google-chrome-stable amd64 150.0.7871.114-1 [134 MB]
+Get:2 https://packages.microsoft.com/repos/code stable/main amd64 code amd64 1.128.0-1783465401 [206 MB]
+Get:3 http://in.archive.ubuntu.com/ubuntu noble-updates/main amd64 tzdata all 2026b-0ubuntu0.24.04.1 [280 kB]
+Get:4 http://in.archive.ubuntu.com/ubuntu noble-updates/main amd64 mutter-common all 46.2-1ubuntu0.24.04.16 [50.6 kB]
+Get:5 http://in.archive.ubuntu.com/ubuntu noble-updates/main amd64 gir1.2-mutter-14 amd64 46.2-1ubuntu0.24.04.16 [131 kB]
+Get:6 http://in.archive.ubuntu.com/ubuntu noble-updates/main amd64 libmutter-14-0 amd64 46.2-1ubuntu0.24.04.16 [1,395 kB]
+Get:7 http://in.archive.ubuntu.com/ubuntu noble-updates/main amd64 mutter-common-bin amd64 46.2-1ubuntu0.24.04.16 [53.5 kB]
+Get:8 http://in.archive.ubuntu.com/ubuntu noble-updates/main amd64 libinput-bin amd64 1.25.0-1ubuntu3.5 [23.2 kB]
+Get:9 http://in.archive.ubuntu.com/ubuntu noble-updates/main amd64 libinput10 amd64 1.25.0-1ubuntu3.5 [133 kB]
+Preconfiguring packages ...
+Fetched 342 MB in 1min 10s (4,878 kB/s)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 242447 files and directories currently installed.)
+Preparing to unpack .../0-google-chrome-stable_150.0.7871.114-1_amd64.deb ...
+Unpacking google-chrome-stable (150.0.7871.114-1) over (150.0.7871.46-1) ...
+Preparing to unpack .../1-tzdata_2026b-0ubuntu0.24.04.1_all.deb ...
+Unpacking tzdata (2026b-0ubuntu0.24.04.1) over (2026a-0ubuntu0.24.04.1) ...
+Preparing to unpack .../2-code_1.128.0-1783465401_amd64.deb ...
+Unpacking code (1.128.0-1783465401) over (1.127.0-1782814776) ...
+Preparing to unpack .../3-mutter-common_46.2-1ubuntu0.24.04.16_all.deb ...
+Unpacking mutter-common (46.2-1ubuntu0.24.04.16) over (46.2-1ubuntu0.24.04.15) ...
+Preparing to unpack .../4-gir1.2-mutter-14_46.2-1ubuntu0.24.04.16_amd64.deb ...
+Unpacking gir1.2-mutter-14:amd64 (46.2-1ubuntu0.24.04.16) over (46.2-1ubuntu0.24.04.15) ...
+Preparing to unpack .../5-libmutter-14-0_46.2-1ubuntu0.24.04.16_amd64.deb ...
+Unpacking libmutter-14-0:amd64 (46.2-1ubuntu0.24.04.16) over (46.2-1ubuntu0.24.04.15) ...
+Preparing to unpack .../6-mutter-common-bin_46.2-1ubuntu0.24.04.16_amd64.deb ...
+Unpacking mutter-common-bin (46.2-1ubuntu0.24.04.16) over (46.2-1ubuntu0.24.04.15) ...
+Preparing to unpack .../7-libinput-bin_1.25.0-1ubuntu3.5_amd64.deb ...
+Unpacking libinput-bin (1.25.0-1ubuntu3.5) over (1.25.0-1ubuntu3.4) ...
+Preparing to unpack .../8-libinput10_1.25.0-1ubuntu3.5_amd64.deb ...
+Unpacking libinput10:amd64 (1.25.0-1ubuntu3.5) over (1.25.0-1ubuntu3.4) ...
+Setting up code (1.128.0-1783465401) ...
+Setting up google-chrome-stable (150.0.7871.114-1) ...
+Setting up libinput-bin (1.25.0-1ubuntu3.5) ...
+Setting up tzdata (2026b-0ubuntu0.24.04.1) ...
+
+Current default time zone: 'Asia/Kolkata'
+Local time is now:      Thursday 09 July 2026 07:55:27 PM IST.
+Universal Time is now:  Thu Jul  9 14:25:27 UTC 2026.
+Run 'dpkg-reconfigure tzdata' if you wish to change it.
+
+Setting up mutter-common (46.2-1ubuntu0.24.04.16) ...
+Setting up mutter-common-bin (46.2-1ubuntu0.24.04.16) ...
+Setting up libinput10:amd64 (1.25.0-1ubuntu3.5) ...
+Processing triggers for desktop-file-utils (0.27-2build1) ...
+Processing triggers for gnome-menus (3.36.0-1.1ubuntu3) ...
+Processing triggers for libc-bin (2.39-0ubuntu8.7) ...
+Processing triggers for man-db (2.12.0-4build2) ...
+Processing triggers for libglib2.0-0t64:amd64 (2.80.0-6ubuntu3.8) ...
+Setting up libmutter-14-0:amd64 (46.2-1ubuntu0.24.04.16) ...
+Processing triggers for shared-mime-info (2.4-4) ...
+Setting up gir1.2-mutter-14:amd64 (46.2-1ubuntu0.24.04.16) ...
+Processing triggers for libc-bin (2.39-0ubuntu8.7) ...
