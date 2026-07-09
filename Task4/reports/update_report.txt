@@ -1,0 +1,17 @@
+=========================================
+       SYSTEM UPDATE REPORT
+=========================================
+
+Generated On    : 08-07-2026 13:13:51
+Operating System : Ubuntu 24.04.4 LTS
+Package Manager : apt
+Total Packages : 2078
+Updates Available : 3
+
+Packages Requiring Updates
+-----------------------------------------
+google-chrome-stable/stable 150.0.7871.100-1 amd64 [upgradable from: 150.0.7871.46-1]
+libinput-bin/noble-updates 1.25.0-1ubuntu3.5 amd64 [upgradable from: 1.25.0-1ubuntu3.4]
+libinput10/noble-updates 1.25.0-1ubuntu3.5 amd64 [upgradable from: 1.25.0-1ubuntu3.4]
+
+=========================================
