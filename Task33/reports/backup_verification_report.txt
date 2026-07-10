@@ -1,0 +1,19 @@
+==========================================
+BACKUP VERIFICATION REPORT
+==========================================
+Timestamp            : 10-07-2026 18:27:33
+Source Directory     : /home/jivesh/Test
+Backup Directory     : /home/jivesh
+Archive Name         : Test_backup.tar.gz
+
+Verification Status  : Failed
+Total Source Files   : 3
+Matching Files       : 2
+Modified Files       : 1
+Missing Files        : 0
+Additional Files     : 0
+
+==========================================
+COMPARISON DETAILS
+==========================================
+Files /home/jivesh/Test/file1.txt and /tmp/tmp.y62dqfptq7/Test/file1.txt differ
