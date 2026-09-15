@@ -251,4 +251,3 @@ restore files, or remove older backups.
 
 [GitHub
 Repository](https://github.com/Jiveshupadhya/RHCSA-Summer-Training-2026)
-<img width="1597" height="783" alt="image" src="https://github.com/user-attachments/assets/8ff0917f-86f0-4bae-8e85-485716d45778" />
