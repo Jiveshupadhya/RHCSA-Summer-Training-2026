@@ -229,7 +229,7 @@ create_report(){
 
 create_log(){
 
-    echo "==========================================" > "$log_file"
+    echo "==========================================" >> "$log_file"
     echo "UPDATE ACTIVITY LOG" >> "$log_file"
     echo "==========================================" >> "$log_file"
 
